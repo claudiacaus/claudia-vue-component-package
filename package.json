@@ -1,0 +1,45 @@
+{
+  "name": "claudiavuecomponents",
+  "private": false,
+  "version": "1.0.1",
+  "description": "A Vue 3 Button component library",
+  "type": "module",
+  "main": "./dist/PersonalButton.umd.js",
+  "module": "./dist/PersonalButton.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/PersonalButton.esm.js",
+      "require": "./dist/PersonalButton.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "serve": "vite preview"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "component",
+    "library"
+  ],
+  "author": "Claudia Pereira Oliveira",
+  "peerDependencies": {
+    "vue": "^3.3.4"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.4.5",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-plugin-dts": "^3.3.1",
+    "vue-tsc": "^1.8.5",
+    "vue": "^3.3.4"
+  }
+}
